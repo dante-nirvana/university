@@ -2,7 +2,7 @@
 
 # Installing and using numpy:
 
-# 1st - Download and install dependencies using package installer for python (pip)
+# 1 - Download and install dependencies using package installer for python (pip)
 # this module will be using NUMPY and PLOTLY.
 
 # Then import the library with the command import numpy as np
@@ -29,7 +29,7 @@ ndarray1 = np.linspace(10, 1000, 1000)
 
 print(f"Content of the array:\n{ndarray1},\n it's size: {len(ndarray1)}")
 
-# 2nd - Some performance comparison
+# 2 - Some performance comparison
 
 # # Numpy...
 # start_time1 = t.time()
@@ -47,7 +47,7 @@ print(f"Content of the array:\n{ndarray1},\n it's size: {len(ndarray1)}")
 # print(f"\nRegular Python list structure creates an array with 1 billion elements \
 # (filled with zeros) in: {elapsed_time}")
 
-# 3rd - Stating a type and size for data will increase performance even further...
+# 3 - Stating a type and size for data will increase performance even further...
 
 # start_time = t.time()
 # ndarray = np.zeros(1000000000, dtype='uint8')
@@ -56,7 +56,7 @@ print(f"Content of the array:\n{ndarray1},\n it's size: {len(ndarray1)}")
 # print(f"Numpy creates an array with 1 billion elements \
 # (filled with zeros) in: {elapsed_time}\n")
 
-# 4th - Creating multidimessional arrays
+# 4 - Creating multidimessional arrays
 
 # rng = np.random.default_rng() # numpy has its own random methods
 # array_1d = rng.random(4)
@@ -66,7 +66,7 @@ print(f"Content of the array:\n{ndarray1},\n it's size: {len(ndarray1)}")
 # print(f' 2 dimenssion with random values:\n\n{array_2d}\n')
 # print(f' 3 dimenssion with random values:\n\n{array_3d}\n')
 
-# 5th - Sorting with numpy
+# 5 - Sorting with numpy
 
 # rng = np.random.default_rng()
 # array_2d = rng.random([4, 4])
@@ -77,7 +77,7 @@ print(f"Content of the array:\n{ndarray1},\n it's size: {len(ndarray1)}")
 # print(f'Sorting by lines:\n{array_line}')
 # print(f'Sorting by columns and lines:\n{array_column_and_line}')
 
-# 6th - Ploting ndarrays with plotly library
+# 6 - Ploting ndarrays with plotly library
 
 # array_a = np.linspace(10, 1000, 100)
 # array_b = np.linspace(10, 3000, 100)
