@@ -9,7 +9,7 @@
 
 # Remember to uncomment import command for each part if necessary
 
-import numpy as np
+# import numpy as np
 # import time as t
 # import plotly.express
 
@@ -18,16 +18,16 @@ import numpy as np
 # Note: numpy arrays works with statically typed variables to create arrays, wich means
 # that all of it's indexes are from same type
 
-ndarray1 = np.zeros(100000) # creates an array with 100 thousand indexes filled with 0s
-print(f"Content of the array: {ndarray1}, it's size: {len(ndarray1)}")
+# ndarray1 = np.zeros(100000) # creates an array with 100 thousand indexes filled with 0s
+# print(f"Content of the array: {ndarray1}, it's size: {len(ndarray1)}")
 
-ndarray1 = np.ones(100000) # same thing, but with ones instead of zeros
-print(f"Content of the array: {ndarray1}, it's size: {len(ndarray1)}")
+# ndarray1 = np.ones(100000) # same thing, but with ones instead of zeros
+# print(f"Content of the array: {ndarray1}, it's size: {len(ndarray1)}")
 
-ndarray1 = np.linspace(10, 1000, 1000)
-# line above generates numbers from 10 to 1000 with 1000 elements
+# ndarray1 = np.linspace(10, 1000, 1000)
+# # line above generates numbers from 10 to 1000 with 1000 elements
 
-print(f"Content of the array:\n{ndarray1},\n it's size: {len(ndarray1)}")
+# print(f"Content of the array:\n{ndarray1},\n it's size: {len(ndarray1)}")
 
 # 2 - Some performance comparison
 
