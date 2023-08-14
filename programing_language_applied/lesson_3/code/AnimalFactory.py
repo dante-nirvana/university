@@ -1,3 +1,4 @@
+from code.Animal import Animal
 from code.Dog import Dog
 from code.Cat import Cat
 
@@ -5,7 +6,7 @@ from code.Cat import Cat
 class AnimalFactory():
 
     @staticmethod
-    def new_animal(animal_type: str, age: int, height: float, weight: float):
+    def new_animal(animal_type: str, age: int, height: float, weight: float) -> Animal:
         match animal_type.upper():
             case 'DOG':
                 return  Dog(
